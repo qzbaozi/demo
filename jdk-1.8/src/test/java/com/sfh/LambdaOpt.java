@@ -56,6 +56,13 @@ public class LambdaOpt {
      */
     public interface MyPredicate <T> {
         boolean test(T t);
+
+        default void aa(){
+
+        };
+        default void bb(){
+            
+        }
     }
 
     public class ColorPredicate implements MyPredicate <Product> {
