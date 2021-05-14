@@ -9,7 +9,6 @@
   <version>1.0.0-SNAPSHOT</version>
   <modules>
     <module>jdk-1.8</module>
-      <module>ddd-domain</module>
   </modules>
   <packaging>pom</packaging>
 
