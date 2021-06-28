@@ -1,0 +1,48 @@
+server:
+  port: 9002
+
+feign:
+  compression:
+    request:
+      enabled: true
+  # 默认开启
+  httpclient:
+    enabled: true
+    # 默认关闭
+  okhttp:
+    enabled: false
+    # 默认关闭
+  hystrix:
+    enabled: true
+  client:
+    config:
+      default:
+        readTimeout: 2000
+        connectTimeout: 2000
+
+
+#  hystrix
+hystrix:
+  command:
+    #default全局有效，serve1指定应用有效
+    serve1:
+      execution:
+        timeout:
+          #如果enabled设置为false，则请求超时交给ribbon控制,为true,则超时作为熔断根据
+          enabled: true
+        isolation:
+          thread:
+            #断路器超时时间，默认1000ms
+            timeoutInMilliseconds: 2000
+    #default全局有效，service id指定应用有效
+    default:
+      execution:
+        timeout:
+          #如果enabled设置为false，则请求超时交给ribbon控制,为true,则超时作为熔断根据
+          enabled: true
+        isolation:
+          thread:
+            #断路器超时时间，默认1000ms
+            timeoutInMilliseconds: 500
+
+
