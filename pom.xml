@@ -11,6 +11,7 @@
         <module>jdk-1.8</module>
         <module>mock</module>
         <module>design</module>
+        <module>refactor</module>
     </modules>
     <packaging>pom</packaging>
 
