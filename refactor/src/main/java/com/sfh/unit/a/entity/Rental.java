@@ -1,5 +1,6 @@
 package com.sfh.unit.a.entity;
 
+import lombok.Builder;
 import lombok.Data;
 
 /**
@@ -7,9 +8,13 @@ import lombok.Data;
  * @date 2021/8/31 9:32
  */
 @Data
+@Builder
 public class Rental {
     Movie movie;
     int dayRental;
+
+    public Rental() {
+    }
 
     public Rental(Movie movie, int dayRental) {
         this.movie = movie;

@@ -4,6 +4,7 @@ import com.sfh.unit.a.v4.ChildrenPrice;
 import com.sfh.unit.a.v4.MoviePrice;
 import com.sfh.unit.a.v4.NewReleasePrice;
 import com.sfh.unit.a.v4.RegularPrice;
+import lombok.Builder;
 import lombok.Data;
 
 /**
@@ -19,6 +20,9 @@ public class Movie {
     String title;
     int priceCode;
     MoviePrice price;
+
+    public Movie() {
+    }
 
     public Movie(String title, int priceCode) {
         this.title = title;

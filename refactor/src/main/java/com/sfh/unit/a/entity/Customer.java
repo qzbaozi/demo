@@ -94,10 +94,7 @@ public class Customer {
      * @return
      */
     public String statement_V1() {
-
-
         Enumeration<Rental> elements = rentals.elements();
-
         String result = "Rental Record for " + getName() + "\n";
 
         while (elements.hasMoreElements()) {
