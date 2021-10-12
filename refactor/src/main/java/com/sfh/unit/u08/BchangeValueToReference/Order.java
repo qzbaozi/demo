@@ -1,4 +1,4 @@
-package com.sfh.unit.u08.changeValueToReference;
+package com.sfh.unit.u08.BchangeValueToReference;
 
 import lombok.Getter;
 
