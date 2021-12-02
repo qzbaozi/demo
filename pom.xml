@@ -12,6 +12,7 @@
         <module>mock</module>
         <module>design</module>
         <module>refactor</module>
+        <module>algorithm</module>
     </modules>
     <packaging>pom</packaging>
 

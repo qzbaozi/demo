@@ -1,0 +1,2 @@
+## [惰性计算](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247505996&idx=1&sn=b14fd496dbcc78e990c568df6be0e377&chksm=e92ae543de5d6c55f85a401b46727af0f3f0a9bc70c26a1567ae718d25a2dd23d4ee58c006f9&scene=178&cur_album_id=1391790902901014528#rd)
+成员变量在被使用时才赋值
