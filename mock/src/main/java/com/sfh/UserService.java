@@ -62,4 +62,15 @@ public class UserService {
         // 返回用户标识
         return userId;
     }
+
+
+    private int sumXX(int a, int b) {
+        System.out.println("sumXX");
+        return a + b;
+    }
+
+    public int callSumXX(int a, int b) {
+        System.out.println("callSumXX");
+        return sumXX(a, b);
+    }
 }

@@ -1,4 +1,4 @@
-package com.sfh;
+package com.sfh.datacheck;
 
 public enum DDportTaskStatus {
     FINISHED(1)

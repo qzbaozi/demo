@@ -1,4 +1,4 @@
-package com.sfh;
+package com.sfh.datacheck;
 
 import com.sfh.entity.BaseResult;
 import com.sfh.entity.DataCheckRequestDTO;
